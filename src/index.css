@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  section {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 480px;
+}
