@@ -17,7 +17,7 @@ export default function App() {
             onClick={async () => refreshFact()}
           />{" "}
         </p>
-        <img src={imgUrl} alt="Random cat image with random fact" />
+        {imgUrl && <img src={imgUrl} alt="Random cat image with random fact" />}
       </section>
     </>
   );
