@@ -1,4 +1,4 @@
-# Technical test for Juniors and Trainees
+# Technical test for React Juniors and Trainees
 
 ## Description
 
